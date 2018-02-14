@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+    <div class="Timer">
+        <div class="Resets">
+          <button class="TimeConfig" id="Default">Default</button>
+          <button class="TimeConfig" id="Reset">Reset</button>
+        </div>
+        <div>
+          <button class="TimerStatus">Work</button>
+          <button class="ConfigButton" id="WorkMinutesMinus">-</button>
+          <button class="TimerStatus" id="WorkMinutes">25</button>
+          <button class="ConfigButton" id="WorkMinutesAdd">+</button>
+        </div>
+        <div>
+          <button class="TimerStatus break">Play</button>
+          <button class="ConfigButton break" id="BreakMinutesMinus">-</button>
+          <button class="TimerStatus break" id="BreakMinutes">1</button>
+          <button class="ConfigButton break"  id="BreakMinutesAdd">+</button>
+        </div>
+        <div>
+          <div class="DisplayTime" id="PomodoroTimer">25:00</div>
+        </div>
+        <div>
+          <button class="TimeConfig" id="Start">Start</button>
+        </div>
+      </div>
+</body>
+</html>

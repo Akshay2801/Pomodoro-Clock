@@ -1,0 +1,85 @@
+body{
+  background-color:#eeee;
+  text-align:center;
+}
+
+.Timer{
+  width:200px;
+  padding:20px;
+  margin:auto;
+  background-color:black;
+  color:white;
+  border-radius:10px 25px;
+  box-shadow: 2px 2px 10px gray inset,
+    -2px -2px 10px gray inset;
+ margin-top: 200px;
+  
+}
+
+.TimerStatus{
+  width: 30%;
+  display: inline;
+  border-width:0px;
+  padding:0px;
+  margin:0px;
+  background-color:inherit;
+  color:inherit;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.ConfigButton{
+  width:15%;
+  text-align:center;
+  border-width:0px;
+  padding:0px;
+  margin:0px;
+  background-color:inherit;
+  color:inherit;
+  outline:none;
+}
+.ConfigButton:hover{
+  background-color:#9EA2A3;
+  border-radius:5px;
+  color:white;
+  font-weight:bold;
+}
+
+.DisplayTime{
+  width:100%;
+  text-align:center;
+  border-width: 0px;
+  background-color:inherit;
+  font-size:3.3em;
+  font-weight:bold;
+}
+
+.TimeConfig{
+  width:49%;
+  border-width:0px;
+  padding:0px;
+  margin:0px;
+  background-color:inherit;
+  color:inherit;
+  outline:none;
+}
+
+.TimeConfig:hover{
+  background-color:#9EA2A3;
+  border-radius:5px;
+  color:white;
+  font-weight:bold;
+}
+
+
+.break{
+  color:#16BABA;
+}
+
+#Start{
+  font-size:2.0em;
+}
+
+.Resets{
+  padding-bottom:10px;
+}
